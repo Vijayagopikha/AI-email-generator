@@ -25,7 +25,7 @@ An intelligent web application that generates professional, informal, and custom
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js  
+- React.js with Vite
 - CSS 
 
 ### Backend
