@@ -82,7 +82,7 @@ function Form({ onSubmit }) {
         value={form.purpose}
         onChange={handleChange}
       />
-      {/* {errors.purpose && <p className="error">{errors.purpose}</p>} */}
+      {errors.purpose && <p className="error">{errors.purpose}</p>} 
 
       {/* Optional Fields */}
       <input name="role" placeholder="Role (optional)" onChange={handleChange} />

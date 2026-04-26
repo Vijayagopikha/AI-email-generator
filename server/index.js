@@ -41,6 +41,7 @@ app.post("/generate", async (req, res) => {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
+    console.log("✅ GEMINI RESPONSE:", text);
 
     res.json({ email: text });
 
