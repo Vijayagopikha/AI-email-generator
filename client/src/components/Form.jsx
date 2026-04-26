@@ -69,7 +69,7 @@ function Form({ onSubmit }) {
       {/* Email Type */}
       <input
         name="emailType"
-        placeholder="Enter Email Type"
+        placeholder="Enter Email Type i.e Professional, Job Application, leave request, etc."
         value={form.emailType}
         onChange={handleChange}
       />
@@ -78,7 +78,7 @@ function Form({ onSubmit }) {
       {/* Purpose */}
       <input
         name="purpose"
-        placeholder="Enter purpose"
+        placeholder="Enter purpose or description i.e. applying for a job, requesting leave, etc."
         value={form.purpose}
         onChange={handleChange}
       />
